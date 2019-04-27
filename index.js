@@ -12,6 +12,10 @@ function findMatching(drivers, match) {
   return newMatch;
 }
 
+function fuzzyMatch(drivers, string){
+  
+}
+
 function matchName(drivers, match){
   return drivers.filter(function(name){
     return name.toLowerCase().indexOf(match.toLowerCase()) === 0;
