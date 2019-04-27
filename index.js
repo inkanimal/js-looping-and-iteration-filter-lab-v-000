@@ -13,7 +13,7 @@ function findMatching(drivers, match) {
 }
 
 function matchName(drivers, match){
-  return drivers.filter(function(aa){
-    return aa.toLowerCase().indexOf(match.toLowerCase()) == 0;
+  return drivers.filter(function(name){
+    return name.toLowerCase().indexOf(match.toLowerCase()) === 0;
   })
 }
